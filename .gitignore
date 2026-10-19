@@ -1,0 +1,14 @@
+# NIC Switcher — auto-generated files (not part of source)
+nicswitcher.log
+nicswitcher.log.1
+nic-switcher-settings.json
+
+# PyInstaller build output
+dist/
+build/
+*.spec
+*.spec.bak
+
+# Python
+__pycache__/
+*.pyc

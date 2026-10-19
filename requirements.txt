@@ -1,0 +1,19 @@
+# NIC Switcher — Python dependencies
+#
+# Install with:  pip install -r requirements.txt
+#
+# Requires Python 3.10 or newer.
+#
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── GUI (the only runtime dependency) ─────────────────────────────────────────
+PyQt6>=6.6.0
+
+# ── Only needed to build the standalone Windows .exe yourself ─────────────────
+# Uncomment the line below, then run:  python NICSwitcher_V1.py --build
+# pyinstaller>=6.0
+
+# ── Already in Python stdlib (listed for reference, do NOT install) ───────────
+# base64, ctypes, http.client, ipaddress, json, os, plistlib, random, re, shlex,
+# shutil, socket, ssl, statistics, subprocess, sys, tempfile, threading, time,
+# zlib, collections, dataclasses, string, html, platform, winreg (Windows)
